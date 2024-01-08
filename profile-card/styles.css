@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+  
+}
+.main__page{
+    font-family: kumbh sans;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  
+}
+.container{
+    height: 150px;
+    background-image: url(/images/bg-pattern-card.svg);
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+/* .card__container{
+    height: 290px;
+} */
+.name{
+    font-size: 18px;
+}
+
+.profile__pic{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -50px auto -30px auto;
+    overflow: hidden;
+}
+.profile__details{
+   
+    margin-top: 54px;
+    margin-bottom: -75px;
+    height: 250px;
+    line-height: 1.5rem;
+}
+
+
+.card__body{
+    background-color: white;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+   
+}
+.profile__details .act{
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    display: block;
+}
+.profile__details .age{
+    padding-left: 10px;
+    color: hsl(0, 0%, 59%);
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.location{
+    margin-bottom: 40px;
+    padding-top: 5px;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 10%;
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.activities{
+    border-top: 1px solid hsl(0, 7%, 89%);
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+   padding-right: 25px; 
+    margin: 0;
+}
+.activities .act{
+    color: hsl(0, 0%, 59%);
+  
+}
+.activities .rates{
+    font-size: 18px;
+}
